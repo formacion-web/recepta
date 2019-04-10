@@ -11,8 +11,8 @@ Començarem amb un codi d'inici per cuinar un pastis de poma
 
 ## Requeriments
 
-- Apren com fer [forking](https://guides.github.com/activities/forking/) del repositori
-- Clona aquest repo a la teva carpeta de github 
+- Has d'aprendre com fer [forking](https://guides.github.com/activities/forking/) del repositori
+- Clona aquest repositori a la teva carpeta de github 
 - Utilitza selectors `class` i `id` a tu exercici. Recorda, utilitza selectors de tipus si vols modificar cadascun dels elements d'aquest tipus 
 - Utilitza una pàgina de estils CSS externa per a totes les pàgines
 - Utilitza les imatges que es proporcionen per construir els elements apropiats:
