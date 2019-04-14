@@ -1,5 +1,5 @@
 # Activitat 1: La recepta de la iaia
-Exercici per practicar HTML i CSS bàsics
+Exercici per practicar les bases d'HTML i CSS
 
 # HTML & CSS | Recipes Clone
 
