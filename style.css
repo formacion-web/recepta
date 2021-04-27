@@ -7,18 +7,21 @@ body {
     font-size: 18px;
     line-height: 20px;
     color: grey;
+    width: 840px;
   }
   header {
     display: flex;
     color: #fff;
     margin: 0 auto;
-    width: 800px;
+    width: 840px;
     height: 500px;
     background: url(https://github.com/formacion-web/recepta/blob/master/images/apple-pie.jpg?raw=true);
     background-size: cover;
     justify-content: center;
     font-size: 150%;  
   }
+   
+  
   
   h1 {
     position: absolute;
@@ -29,6 +32,8 @@ body {
   
   main {
       font-size: 85%;
+      margin-left: 80px;
+      margin-right: 80px;
   }
   img {
     width: 40%;
