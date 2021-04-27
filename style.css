@@ -1,0 +1,16 @@
+div{
+    width: 600px;
+    margin: auto;
+    
+}
+header{
+    background-image:  url(images/apple-pie.jpg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+h1{
+    color:  white;
+    padding-top: 200px;
+    padding-left: 230px;
+}
