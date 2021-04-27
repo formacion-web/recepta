@@ -14,3 +14,17 @@ h1{
     padding-top: 200px;
     padding-left: 230px;
 }
+article{
+    margin:30px;
+}
+img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+hr{
+    color:gray;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
