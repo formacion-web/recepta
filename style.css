@@ -1,0 +1,91 @@
+html {
+  background-color: whitesmoke;
+}
+body {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  color: grey;
+  width: 840px;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  position: relative;
+}
+header {
+  display: flex;
+  color: #fff;
+  margin: 0 auto;
+  width: 840px;
+  height: 500px;
+  background: url(https://github.com/formacion-web/recepta/blob/master/images/apple-pie.jpg?raw=true);
+  background-size: cover;
+  justify-content: center;
+  font-size: 150%;
+  position: relative;
+}
+
+#title {
+  line-height: 450px;
+  text-align: center;
+  color: white;
+  font-size: 200%;
+}
+
+main {
+  font-size: 85%;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 50px;
+  padding-bottom: 80px;
+  text-align: left;
+}
+img {
+  width: 45%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  display: block;
+}
+
+h2 {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+ul {
+  list-style-type: none;
+}
+ul li:before {
+  content: "- ";
+}
+
+ol {
+  counter-reset: list;
+}
+ol > li {
+  list-style: none;
+}
+ol > li:before {
+  content: counter(list) ") ";
+  counter-increment: list;
+}
+hr {
+  color: grey;
+}
+
+ul,
+ol {
+  line-height: 22px;
+  padding-left: 10px;
+  font-size: 0.85em;
+}
+.instructions {
+  line-height: 40px;
+  color: black;
+  margin-top: 30px;
+}
