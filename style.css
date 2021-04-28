@@ -44,7 +44,7 @@ main {
   text-align: left;
 }
 img {
-  width: 50%;
+  width: 45%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -80,8 +80,9 @@ hr {
 
 ul,
 ol {
-  line-height: 2px;
+  line-height: 22px;
   padding-left: 10px;
+  font-size: 0.85em;
 }
 .instructions {
   line-height: 40px;
