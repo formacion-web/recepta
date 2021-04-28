@@ -80,7 +80,7 @@ hr {
 
 ul,
 ol {
-  font-size: 0.85em;
+  line-height: 20px;
   padding-left: 10px;
 }
 .instructions {
