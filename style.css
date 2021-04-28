@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    position: relative;
+    text-align: center;
+    
+}
+h1 {
+    color: white;
+    position: absolute;
+    font-size: 80px;
+    margin-top: 30%;
+    padding-left: 45%;
+    text-align: center;
+    
+}
+p {
+    text-align: center;
+    font-size: 4em;
+    color: grey;
+}
+.time {
+    display: block;
+    margin: auto;
+}
+
+hr{
+    background-color:grey;
+    height: 3px;
+    width: 80%;
+}
+span {
+    margin-left: 10%;
+    font-size: 40px;
+    color: black
+}
+ul {
+    margin-left: 10%;
+    font-size: 25px;
+    color: grey;
+}
+.instruction {
+    display: block;
+    margin: auto;
+}
+.directions {
+    margin-left: 10%;
+    font-size: 40px;
+    color: black;
+}
+ol {
+    margin-left: 10%;
+    font-size: 25px;
+    color: grey;
+}
