@@ -3,12 +3,17 @@ header {
     height: 500px;
     position: relative;
     background-image: url("images/apple-pie.jpg");
+    background-size: cover;
     display: inline-block;
     margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
    
 }
+body {
+    font-family: sans-serif
+}
+
 h1 {color: rgb(255, 255, 255);
 text-align: center;
 line-height: 500px;
