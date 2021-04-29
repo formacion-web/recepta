@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "titulo";
+    src: url(source/Back\ to\ School.ttf);
+}
 div{
     width: 600px;
     margin: auto;
@@ -12,8 +16,9 @@ header{
 h1{
     color:  white;
     padding-top: 30%;
-    padding-left: 40%;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 22%;
+    font-family: "titulo",Arial, sans-serif;
+    text-transform: uppercase;
 }
 article{
     margin:30px;
@@ -44,6 +49,6 @@ ol>li::before{
     content: counter(item) ") ";
     
 }
-li{
+ol>li{
     list-style: none;
 }
