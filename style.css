@@ -21,7 +21,7 @@ h1{
     text-transform: uppercase;
 }
 article{
-    margin:30px;
+    margin:25px;
 }
 img{
     max-width: 50%;
@@ -42,6 +42,9 @@ ul{
 }
 ol{
     counter-reset: item;
+}
+ol,ul{
+    padding-left: 20px;
 }
 ol>li::before{
     
