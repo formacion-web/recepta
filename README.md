@@ -9,7 +9,9 @@ Avui hem après les bases del HTML i el CSS, farem alguna cosa amb això.
 
 Començarem amb un codi d'inici per cuinar un pastis de poma
 
-## Requeriments
+## Requerimentss
+
+
 
 - Has d'aprendre com fer [forking](https://guides.github.com/activities/forking/) del repositori
 - Clona aquest repositori a la teva carpeta de github 
