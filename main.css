@@ -52,10 +52,19 @@ main>section>.image-container>img{
     margin: 20px 0;
 }
 
-main>section>ol>li{
-    list-style-type: decimal;
+ul {
+    margin-left: 10px;
 }
 
-ul, ol{
-    margin-left: 10px;
+.ingredientes>ul>li::before {
+    content: " - ";
+}
+
+.directions {
+    counter-reset: directions;                       
+}
+
+li::before {
+  counter-increment: directions;                  
+  content: counter(directions) ") ";
 }
