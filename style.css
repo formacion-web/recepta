@@ -1,0 +1,68 @@
+header {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url("images/apple-pie.jpg");
+    background-size: cover;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+body {
+    font-family: sans-serif
+}
+
+h1 {color: rgb(255, 255, 255);
+text-align: center;
+line-height: 500px;
+font-size: 50px;
+;
+}
+.contenedor{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+}
+img {
+    
+    position: relative;
+    width: 45%;
+    height: 45%;
+    margin-top: 30px;
+    margin-bottom: 30px;  
+    margin-left: 30%; 
+}
+h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main, ul{
+    font-size: 20px;
+    color: grey;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.linea {
+    background-color: black;
+    width: 100%;
+    height: 3px
+}
+.ingr :before{
+    content: "-"
+}
+.tiempo ol{
+    counter-reset: df;
+}
+.tiempo>li{
+    list-style-type: none;
+    counter-increment: df;
+}
+.tiempo li::before{
+    content:  counter(df) ")";
+}
