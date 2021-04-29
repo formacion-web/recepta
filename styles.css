@@ -1,0 +1,106 @@
+.body {
+    height: 300px;
+    font-family: 'Proxima Nova', Fallback, sans-serif;
+    font-size: 40px;
+    color: grey;
+    padding: 2%;
+}
+
+.header {
+    height: 1140px;
+    width: auto;
+    background-image: url("images/apple-pie.jpg");
+    background-size: cover;
+}
+
+.titulo {
+    line-height: 1140px;
+    text-align: center;
+    font-size: 130px;
+    color: white;
+}
+
+.text1 {
+    line-height: 50px;
+    margin: 50px;
+    height: 150px;
+    width: 1350px;
+    text-align: center;
+    position: relative;
+    left: 110px;
+    top: 70px;
+    /*border: black solid;*/
+    padding: 10px;
+}
+
+.text2 {
+    line-height: 50px;
+    text-align: left;
+}
+
+.info {
+    margin: 50px;
+    width: 45%;
+    height: 45%;
+    left: 400px;
+    top: 70px;
+    text-align: center;
+    position: relative;
+    /*border: black solid;*/
+}
+
+.info2 {
+    margin: 50px;
+    width: 45%;
+    height: 45%;
+    left: 300px;
+    top: 70px;
+    text-align: center;
+    position: relative;
+    /*border: black solid;*/
+}
+
+.hr {
+    height: 1px;
+    width: 1350px;
+    right: 110px;
+    background-color: grey;
+}
+
+.listaguion li {
+    list-style-type: none;
+    line-height: 50px;
+}
+
+.listaguion li:before {
+    content: "- "
+}
+
+.parentesis ol {
+    counter-reset: df;
+}
+
+.parentesis>li {
+    list-style-type:  none;
+    counter-increment: df;
+}
+
+.parentesis li:before {
+   
+    content: counter(df) ") ";
+}
+
+.titulo2 {
+    color: black;
+    font-size: 45px;
+}
+
+div {
+    /*border: black solid;*/
+    margin: 50px;
+    padding: 10px;
+    width: 1350px;
+    left: 110px;
+    position: relative;
+    top: 20px;
+}
