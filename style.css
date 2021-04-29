@@ -36,5 +36,14 @@ ul{
    list-style-type: "-";
 }
 ol{
-    counter-set: ;
+    counter-reset: item;
+}
+ol>li::before{
+    
+    counter-increment: item;
+    content: counter(item) ") ";
+    
+}
+li{
+    list-style: none;
 }
