@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "titulo";
+    src: url(source/Back\ to\ School.ttf);
+}
+div{
+    width: 600px;
+    margin: auto;
+    
+}
+header{
+    background-image:  url(images/apple-pie.jpg);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+h1{
+    color:  white;
+    padding-top: 30%;
+    padding-left: 22%;
+    font-family: "titulo",Arial, sans-serif;
+    text-transform: uppercase;
+}
+article{
+    margin:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333
+}
+img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+hr{
+    color:gray;
+    margin-top:15px;
+    margin-bottom: 30px;
+}
+ul{
+   list-style-type: "-";
+}
+ol{
+    counter-reset: item;
+}
+ol,ul{
+    padding-left: 20px;
+}
+ol>li::before{
+    
+    counter-increment: item;
+    content: counter(item) ") ";
+    
+}
+ol>li{
+    list-style: none;
+}
